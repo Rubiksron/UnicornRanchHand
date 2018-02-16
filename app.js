@@ -42,7 +42,7 @@ function populateList() {
 
   for( var i = 0; i < unicorns.length; i++ ) {
     var liEl = document.createElement('li');
-    liEl.textContent = unicorns[i].name + ' is currently at: ' + unicorns[i].location;
+    liEl.textContent = `${unicorns[i].name}` + ' is currently at: ' + `${unicorns[i].location}`;
     unicornsListEl.appendChild(liEl);
   }
 };
